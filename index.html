@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function funcion_nom() {
+              var nom = document.getElementById("name").value;
+              alert ('benvingut ' + nom);
+            }
+            
+            function funcion_adreça() {
+              var adreça = document.getElementById("apellido1").value;
+              alert ( apellido + ' benvingut')
+            }
+            function edat() {
+              var edat = document.getElementById("edat").value;
+              alert ( edat + ' benvingut')
+            }
+            
+            </script>
+<title>Prova desembre</title>
+    </head>
+    <body>
+<h1  class="especial2">PONT</h1>
+<p class="especial1">hola</p>
+<p class="especial1">bon dia</p> 
+
+<hr>
+<p class="especial1"> nom  <input type="text" id="nom" onblur="funcion_nom()"> </p>
+
+<p class="especial3">adreça <input type="text" id="apellido1" onchange="funcion_adreça()">
+
+<p class="especial4">edat <input type="text" id="apellido1" onchange="edat()">
+ 
+    
+</body>
+</html>
